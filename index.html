@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Simon say</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <title>Juego</title>
+    </style>
 </head>
 
 <body>
-    <script src="js/script.js" type="text/javascript"></script>
+    <div class="gameboard">
+        <div id="skyblue" class="color skyblue left" data-color="skyblue"></div>
+        <div id="violet" class="color violet right" data-color="violet"></div>
+        <div id="orange" class="color orange left" data-color="orange"></div>
+        <div id="green" class="color green right" data-color="green"></div>
+        <button id="btnStart" class="btnstart" onclick="startGame()">Empezar a jugar!</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
