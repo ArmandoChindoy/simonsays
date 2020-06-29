@@ -125,15 +125,3 @@
     function startGame() {
         window.game = new Game();
     }
-
-
-    const sacha = {
-        nombre: sacha,
-        apellido: Lifszyc,
-        edad: 15
-    }
-
-    var cumpleaños = persona => ({
-        ...persona,
-        edad: persona.edad + 1
-    })
